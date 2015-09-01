@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/GRAYAAA"
+    tools:context=".MainHome" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_001" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="320dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo_merit02" />
+
+        <TextView
+            android:id="@+id/tvWelcomeMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:shadowColor="@color/WHITE"
+            android:shadowDx="-1.0"
+            android:shadowDy="-1.0"
+            android:shadowRadius="2.0"
+            android:text="@string/appfullname"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/GRAY333"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/edLoginAcc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/login_id"
+                android:inputType="textEmailAddress"
+                android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                android:textColorHint="@color/GRAYCCC"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/edLoginPsd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="@string/login_password"
+                android:inputType="textPassword"
+                android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                android:textColorHint="@color/GRAYCCC"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <CheckBox
+                    android:id="@+id/chkSave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/savemyloginaccpsd"
+                    android:textColor="@color/GRAY333"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp" >
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:background="@color/btn_dark1"
+                android:shadowColor="@color/BLACK"
+                android:shadowDx="-1.0"
+                android:shadowDy="-1.0"
+                android:shadowRadius="1.0"
+                android:text="@string/login"
+                android:textColor="@color/YELLOW"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnExit"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="@color/btn_dark1"
+                android:shadowColor="@color/BLACK"
+                android:shadowDx="-1.0"
+                android:shadowDy="-1.0"
+                android:shadowRadius="1.0"
+                android:text="@string/exitprogram"
+                android:textColor="@color/WHITE"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="version"
+            android:textColor="@color/GRAY999"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="480dp"
+            android:textColor="@color/GRAY999"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

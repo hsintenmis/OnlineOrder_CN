@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp" >
+
+        <TextView
+            android:id="@+id/tvPdName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pd name"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/GRAY333"
+            android:textSize="32sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvPdId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pd id"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/GRAY999"
+                    android:textSize="24sp" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tvPdPv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:gravity="right"
+                        android:text="123456"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/GRAY999"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tvSignPV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="2dp"
+                        android:layout_toRightOf="@id/tvPdPv"
+                        android:text="@string/sign_pv"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/GRAY999"
+                        android:textSize="24sp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TextView06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="@string/pricename_alliance"
+                    android:textColor="@color/GRAY999"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="@string/pricename_member"
+                    android:textColor="@color/GRAY999"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="@string/pricename_retail"
+                    android:textColor="@color/GRAY999"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" >
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/subhead_dollarsign"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/GRAY999"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tvPdPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="right"
+                        android:text="1234567890"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/GRAY999"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" >
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/subhead_dollarsign"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/GRAY999"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tvPdPrice_member"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="right"
+                        android:text="1234567890"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/GRAY999"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/subhead_dollarsign"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/GRAY999"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tvPdPrice_retail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="right"
+                        android:text="1234567890"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/GRAY999"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

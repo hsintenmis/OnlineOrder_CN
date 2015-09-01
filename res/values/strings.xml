@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">美利线上订购</string>
+    <string name="appfullname">美利线上订购系统</string>
+    <string name="mainmenu">主选单</string>
+    <string name="string_yes">是</string>
+    <string name="string_no">否</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="string_cancel">取消</string>
+    <string name="exitprogram">离开程式</string>
+    <string name="exit">离开</string>
+    <string name="login">登入</string>
+    <string name="logout">登出</string>
+    <string name="aboutprogram">关於程式</string>
+    <string name="mksure_exit_program">确定离开程式 ?!</string>
+    <string name="start">开始</string>
+    <string name="submit">确认送出</string>
+    <string name="setup">设定</string>
+    <string name="system">系统</string>
+    <string name="close">关闭</string>
+    <string name="clear">清除</string>
+    <string name="mainpage">主选单</string>
+    <string name="cancel">取消</string>
+    <string name="answer_ok">正确</string>
+    <string name="answer_wrong">错误</string>
+    <string name="mksuregohome">确定回到主画面 ??</string>
+    <string name="format_timer">"%1$02d:%2$02d"</string>
+    <string name="YY_name">年</string>
+    <string name="MM_name">月</string>
+    <string name="DD_name">日</string>
+    <string name="today">今日</string>
+    <string name="add">新增</string>
+    <string name="save">储存</string>
+    <string name="memo">备注</string>
+    <string name="login_id">登入帐号</string>
+    <string name="login_password">登入密码</string>
+    <string name="userloginverify">使用者登入认证</string>
+    <string name="loginfailure">登入失败 !!</string>
+    <string name="datatransfering">资料传送中, 请稍後 ..</string>
+    <string name="dbconnect">资料库连结</string>
+    <string name="restartconndb">重新连线资料库</string>
+    <string name="confirm_dialbox">系统提示</string>
+    <string name="systemnotify">系统提示</string>
+    <string name="youwantexitthisprogram">您确定要离开本程式吗??</string>
+    <string name="system_disconnect">警告!! 系统已断线 !!</string>
+    <string name="gonextpage">次页</string>
+    <string name="datasavecompleted">资料储存完成!</string>  
+    <string name="chknewnersion">检查新版程式</string>
+    <string name="updatesystem">更新程式系统</string>
+    <string name="startupdate">开始更新</string>
+    <string name="filedownloadplzwait">更新档案下载中,请稍候 ..</string>
+    <string name="foundnewversionmsg">系统发现有新版程式可更新!\n请注意您的装置会显示下载进度,\n下载完成後请自行点取该档案开始更新程式!</string>
+    <string name="systemwarring">系统警告!!</string>    
+    <string name="loginsetup">登入设定</string>
+    <string name="savemyloginaccpsd">纪录我的帐号与密码</string>    
+    <string name="premonth">前月</string>
+    <string name="nextmonth">次月</string>
+    <string name="dataIOerror">档案资料错误</string>
+    <string name="selectmonth">选择月份</string>
+    <string name="caltotal">合计</string>
+    <string name="calsub">小计</string>
+    <string name="gobacktotop">回顶层</string>  
+    <string name="gobacktoup">上一层</string>
+    <string name="itemno">项次</string>      
+    <string name="nodata">目前无资料</string>
+    <string name="gobackpage">回前页</string> 
+    <string name="format_versionmsg">"版本 : %1$s"</string>
+    <string name="confirmisee">我知道了!</string>
+    <string name="err_internet">网路连线有问题!</string>
+    <string name="err_systemdatamaintain">系统维护中，请稍候再连线 . . .</string>
+    <string name="err_sysdataio">系统资料错误，请稍候再连线. . .</string>
+    
+    <string name="pdcategory_S">器材类</string>
+    <string name="pdcategory_C">美容保养品</string>
+    <string name="pdcategory_N">健康食品类</string>
+    <string name="pdcategory_P">促销商品</string>
+    <string name="pdcategory_H">辅宣商品</string>
+    <string name="pdcategory_B">套装商品</string>
+    
+    <string name="qty">数量</string>
+    <string name="sign_pv">pv</string>
+    <string name="unitprice">单价</string>
+    <string name="subtot_pv">pv合计</string>
+    <string name="subtot_price">金额合计</string>
+    <string name="totamount_pv">pv总计</string>
+    <string name="totamount_price">金额总计</string>    
+    <string name="subvalue">小计</string>    
+    <string name="err_orderpddata">商品订购资料错误, 请重新选择商品!</string>
+    <string name="mksuresendordermsg">确定将本订购单送出吗?</string>    
+    <string name="order_amountmsg">订单金额总计(2000元以内运费自费)</string>
+    <string name="ordersubmit">确认订购</string>
+    <string name="cartproduct">购物车商品</string>
+    <string name="cartpdexistsmsg">购物车已经有这个商品了!</string>
+    <string name="err_cartnopdmsg">请选择商品!</string>
+    <string name="success_onlineodrtransfer">订单资料上传完成！</string>
+    <string name="onlinesuccessmsg">"线上订购商品资料送出完成!\n\n本次线上订购单号:\n%1$s\n\n如有相关问题请联络本公司为您服务!"</string>
+     <string name="err_onlineodrtransfer">订单资料上传错误，请稍候再连线！</string>
+    
+    <string name="pricename_alliance">加盟价</string>
+    <string name="pricename_member">会员价</string>
+    <string name="pricename_retail">零售价</string>
+    <string name="subhead_dollarsign">¥</string>
+    <string name="remove">移除</string>
+    <string name="selectqty">选择数量</string>        
+    <string name="selectpd">选择商品</string>
+    <string name="clickcartpditemmsg">(点取购物车商品，可修改数量或是移除该商品)</string>
+    <string name="nopd">目前没有商品. . .</string>
+    <string name="currselectqty">目前数量</string>
+    
+    <string name="addcompleted">加入完成!</string>
+    <string name="emptycart">清空购物车</string>
+    <string name="emptycartmsg">购物车商品全部移除完成!</string>
+    <string name="welcomemsg">欢迎使用本系统!</string>
+    
+    <string name="csttelmsg_common">当你完成订单後，公司客服将会电话与您联系确认订单内容，如无电话回访或有任何问题，请拨以下客服电话。</string>
+    <string name="csttelmsg_CC">长春公司客服: 0431－85080618</string>
+    <string name="csttelmsg_SH">合肥公司客服: 0551－65323682 －227</string>
+    <string name="csttelmsg_SZ">深圳公司客服: 0755－83003718</string>
+    
+    <string name="week_0">日</string>
+    <string name="week_1">一</string>
+    <string name="week_2">二</string>
+    <string name="week_3">三</string>
+    <string name="week_4">四</string>
+    <string name="week_5">五</string>
+    <string name="week_6">六</string>
+    <string name="week_7">日</string>
+    
+    <string-array name="weekname_short">
+        <item>"日"</item>
+        <item>"一"</item>
+        <item>"二"</item>
+        <item>"三"</item>
+        <item>"四"</item>
+        <item>"五"</item>
+        <item>"六"</item>
+    </string-array>
+    <string-array name="monthname_short">
+        <item>"一月"</item>
+        <item>"二月"</item>
+        <item>"三月"</item>
+        <item>"四月"</item>
+        <item>"五月"</item>
+        <item>"六月"</item>
+        <item>"七月"</item>
+        <item>"八月"</item>
+        <item>"九月"</item>
+        <item>"十月"</item>
+        <item>"十一月"</item>
+        <item>"十二月"</item>
+    </string-array>
+</resources>

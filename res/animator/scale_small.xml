@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <scale
+        android:duration="300"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:pivotX="0"
+        android:pivotY="0"
+        android:repeatCount="0"
+        android:repeatMode="reverse"
+        android:startOffset="0"
+        android:toXScale="0.0"
+        android:toYScale="0.0" />
+
+</set><!--
+interpolator指定動畫插入器，常見的有加速減速插入器accelerate_decelerate_interpolator，
+加速插入器accelerate_interpolator，減速插入器decelerate_interpolator。
+fromXScale,fromYScale，動畫開始前X,Y的縮放，0.0為不顯示，1.0為正常大小
+toXScale，toYScale，動畫最終縮放的倍數，1.0為正常大小，大於1.0放大
+pivotX，pivotY動畫起始位置，相對於屏幕的百分比,兩個都為50%表示動畫從屏幕中間開始
+startOffset，動畫多次執行的間隔時間，如果只執行一次，執行前會暫停這段時間，單位毫秒
+duration，一次動畫效果消耗的時間，單位毫秒，值越小動畫速度越快
+repeatCount，動畫重複的計數，動畫將會執行該值+1次
+repeatMode，動畫重複的模式，reverse為反向，當第偶次執行時，動畫方向會相反。restart為重新執行，方向不變
+-->

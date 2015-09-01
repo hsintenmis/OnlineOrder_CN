@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="550dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/contentborder_gray_nopadding"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/selectqty"
+                android:textColor="@color/GRAY333"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRemove"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:background="@color/btn_dark1"
+                android:text="@string/remove"
+                android:textColor="@color/PINK_LIGHT"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnQtySubmit"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="2dp"
+                android:background="@color/btn_dark1"
+                android:text="@string/submit"
+                android:textColor="@color/WHITE"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnCancel"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="2dp"
+                android:background="@color/btn_dark1"
+                android:text="@string/cancel"
+                android:textColor="@color/WHITE"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/contentborder_white_nopadding"
+            android:orientation="vertical"
+            android:padding="15dp" >
+
+            <TextView
+                android:id="@+id/tvPdName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pd name"
+                android:textColor="@color/GRAY333"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/unitprice"
+                        android:textColor="@color/GRAY999"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="right"
+                        android:text="@string/subhead_dollarsign"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/GRAY999"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tvPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/GRAY999"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/TextView03"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/subtot_price"
+                        android:textColor="@color/GRAY999"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/TextView05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="right"
+                        android:text="@string/subhead_dollarsign"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/RED_DARK"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tvPriceSub"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/RED_DARK"
+                        android:textSize="24sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/TextView09"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sign_pv"
+                        android:textColor="@color/GRAY999"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tvPv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="0"
+                        android:textColor="@color/GRAY999"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/TextView11"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/subtot_pv"
+                        android:textColor="@color/GRAY999"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tvPvSub"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="0"
+                        android:textColor="@color/GRAY666"
+                        android:textSize="24sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/TextView06"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/currselectqty"
+                        android:textColor="@color/GRAY999"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tvCurrQty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="1"
+                        android:textColor="@color/BLUE_DARK"
+                        android:textSize="24sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lvQty"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" >
+            </ListView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="RED">#FF0000</color>
+    <color name="RED_DARK">#990000</color>
+    <color name="RED_LIGHT">#FFCCCC</color>
+    <color name="PINK">#FF00FF</color>
+    <color name="PINK_LIGHT">#FFCCCC</color>
+    <color name="GREEN">#00FF00</color>
+    <color name="GREEN_DARK">#007f00</color>
+    <color name="GREEN_DARK1">#336633</color>
+    <color name="GREEN_LIGHT">#CCFF33</color>
+    <color name="BLUE">#0000FF</color>
+    <color name="BLUE_DARK">#000099</color>
+    <color name="BLUE_LIGHT">#0066FF</color>
+    <color name="BROWN">#996600</color>
+    <color name="BROWN_LIGHT">#CC9900</color>
+    <color name="BLACK">#000000</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="GRAY222">#202020</color>
+    <color name="GRAY333">#303030</color>
+    <color name="GRAY444">#404040</color>
+    <color name="GRAY555">#505050</color>
+    <color name="GRAY666">#606060</color>
+    <color name="GRAY777">#707070</color>
+    <color name="GRAY888">#808080</color>    
+    <color name="GRAY999">#909090</color>
+    <color name="GRAYAAA">#A0A0A0</color>
+    <color name="GRAYCCC">#C0C0C0</color>
+    <color name="GRAYEEE">#E0E0E0</color>
+    <color name="YELLOW">#FFFF00</color>
+    <color name="ORANGE">#FF9900</color>
+    <color name="AQUA">#00FFFF</color>
+    <color name="GOLD">#FFCC00</color>
+    <color name="CLAND_HOLDAY_TEXT">#CC6699</color>    
+
+    <array name="PieColor">
+        <item>#00FF00</item>
+        <item>#FF9900</item>
+        <item>#007f00</item>
+        <item>#FFCC00</item>
+        <item>#FFFF00</item>
+        <item>#00FFFF</item>
+        <item>#990000</item>
+        <item>#CCFF33</item>
+        <item>#0066FF</item>
+        <item>#CC9900</item>
+        <item>#0000FF</item>
+        <item>#FF00FF</item>
+        <item>#FF0000</item>
+        <item>#996600</item>        <item>#909090</item>
+        <item>#000099</item>
+    </array>
+
+</resources>
